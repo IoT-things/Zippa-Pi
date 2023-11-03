@@ -36,68 +36,64 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\zippa-pi.dsn")
+         "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn")
       (Path "Design Resources"
-         "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\zippa-pi.dsn" "SCHEMATIC")
-      (Path "Design Resources"
-         "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\zippa-pi.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources"
-         "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\zippa-pi.dsn" "SCHEMATIC" "1.Note"))
+         "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn" "SCHEMATIC")
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 290 0 801"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 302 0 801"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 847 28 823")
-        (Scroll "-7 -101")
-        (Zoom "68")
-        (Occurrence "/"))
-      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
-      (Schematic "SCHEMATIC")
-      (Page "1.Note"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 847 28 823")
-        (Scroll "0 -5")
+        (Placement "44 0 1 -1 -1 5 28 5 1116 28 823")
+        (Scroll "-7 -5")
         (Zoom "91")
         (Occurrence "/"))
       (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
       (Schematic "SCHEMATIC")
-      (Page "2.Block Diagram"))
+      (Page "01.Note"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 847 28 823")
-        (Scroll "0 -88")
-        (Zoom "71")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1116 28 823")
+        (Scroll "-7 -5")
+        (Zoom "91")
         (Occurrence "/"))
       (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
       (Schematic "SCHEMATIC")
-      (Page "5.MCU"))
+      (Page "02.Block Diagram"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 847 28 823")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1116 28 823")
+        (Scroll "-7 -5")
+        (Zoom "91")
+        (Occurrence "/"))
+      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "05.MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1116 28 823")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
       (Schematic "SCHEMATIC")
-      (Page "3.Power"))
+      (Page "03.POWER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 847 28 823")
-        (Scroll "0 -88")
-        (Zoom "71")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1116 28 823")
+        (Scroll "-7 -5")
+        (Zoom "91")
         (Occurrence "/"))
       (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
       (Schematic "SCHEMATIC")
-      (Page "4.MCU_POWER")))
+      (Page "04.MCU_POWER")))
   (MPSSessionName "FT"))
