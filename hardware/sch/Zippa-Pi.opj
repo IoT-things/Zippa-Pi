@@ -1,0 +1,103 @@
+(ExpressProject "Zippa-Pi"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[11/03/23]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\stm32h570.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\zippa-pi.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (STM32H750XBH6
+      (FullPartName "STM32H750XBH6C.Normal")
+      (LibraryName "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\STM32H570.OLB")
+      (DeviceIndex "2")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\zippa-pi.dsn")
+      (Path "Design Resources"
+         "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\zippa-pi.dsn" "SCHEMATIC")
+      (Path "Design Resources"
+         "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\zippa-pi.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\zippa-pi.dsn" "SCHEMATIC" "1.Note"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 290 0 801"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 847 28 823")
+        (Scroll "-7 -101")
+        (Zoom "68")
+        (Occurrence "/"))
+      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "1.Note"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 847 28 823")
+        (Scroll "0 -5")
+        (Zoom "91")
+        (Occurrence "/"))
+      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "2.Block Diagram"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 847 28 823")
+        (Scroll "0 -88")
+        (Zoom "71")
+        (Occurrence "/"))
+      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "5.MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 847 28 823")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "3.Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 847 28 823")
+        (Scroll "0 -88")
+        (Zoom "71")
+        (Occurrence "/"))
+      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "4.MCU_POWER")))
+  (MPSSessionName "FT"))
