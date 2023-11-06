@@ -1,10 +1,12 @@
 (ExpressProject "Zippa-Pi"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[11/03/23]")
+  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[11/06/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\stm32h570.olb"
+        (Type "Schematic Library"))
+      (File ".\library1.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -28,6 +30,28 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (VCC_BAR
+      (LibraryName "G:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "G:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "G:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "G:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "G:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MP2144GJ
+      (FullPartName "MP2144GJ.Normal")
+      (LibraryName "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (STM32H750XBH6
       (FullPartName "STM32H750XBH6C.Normal")
       (LibraryName "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\STM32H570.OLB")
@@ -39,61 +63,35 @@
          "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn")
       (Path "Design Resources"
          "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn" "SCHEMATIC")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources"
+         "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "e:\myproject\zippa-pi\hardware\sch\library1.olb")
+      (Select "Design Resources"
+         "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn" "SCHEMATIC" "05.MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 302 0 801"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 379 0 801"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1116 28 823")
-        (Scroll "-7 -5")
-        (Zoom "91")
-        (Occurrence "/"))
-      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
-      (Schematic "SCHEMATIC")
-      (Page "01.Note"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1116 28 823")
-        (Scroll "-7 -5")
-        (Zoom "91")
-        (Occurrence "/"))
-      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
-      (Schematic "SCHEMATIC")
-      (Page "02.Block Diagram"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1116 28 823")
-        (Scroll "-7 -5")
-        (Zoom "91")
-        (Occurrence "/"))
-      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
-      (Schematic "SCHEMATIC")
-      (Page "05.MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1116 28 823")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 5 28 5 1216 28 761")
+        (Scroll "-7 -72")
+        (Zoom "75")
         (Occurrence "/"))
       (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
       (Schematic "SCHEMATIC")
       (Page "03.POWER"))
     (Doc
-      (Type "COrSchematicDoc")
+      (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1116 28 823")
-        (Scroll "-7 -5")
-        (Zoom "91")
-        (Occurrence "/"))
-      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
-      (Schematic "SCHEMATIC")
-      (Page "04.MCU_POWER")))
-  (MPSSessionName "FT"))
+        (Placement "44 0 1 -1 -1 5 28 5 928 28 823"))
+      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\LIBRARY1.OLB")
+      (Package "MP2144GJ")
+      (PartType "1")))
+  (MPSSessionName "FT")
+  (LastUsedLibraryBrowseDirectory "G:\cadence\SPB_17.4\tools\capture\library"))
