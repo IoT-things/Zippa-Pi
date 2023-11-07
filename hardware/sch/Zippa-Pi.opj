@@ -1,6 +1,6 @@
 (ExpressProject "Zippa-Pi"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[11/06/23]")
+  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[11/07/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -30,6 +30,23 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (W9825G6KH
+      (FullPartName "W9825G6KH.Normal")
+      (LibraryName "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (W9825G6KH-6
+      (FullPartName "W9825G6KH-6A.Normal")
+      (LibraryName
+         "C:\USERS\FT\DOWNLOADS\UL_W9825G6KH-6 (1)\ORCADCAPTUREOLB\ORCADCAPTUREOLB.OLB")
+      (DeviceIndex "0"))
+    (JUMPER1
+      (FullPartName "JUMPER1.Normal")
+      (LibraryName "G:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (USB-C
+      (FullPartName "USB-C.Normal")
+      (LibraryName "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "G:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -62,36 +79,13 @@
       (Path "Design Resources"
          "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn")
       (Path "Design Resources"
-         "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn" "SCHEMATIC")
-      (Path "Design Resources"
          "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "e:\myproject\zippa-pi\hardware\sch\library1.olb")
-      (Select "Design Resources"
-         "e:\myproject\zippa-pi\hardware\sch\zippa-pi.dsn" "SCHEMATIC" "05.MCU"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 379 0 801"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 5 28 5 1216 28 761")
-        (Scroll "-7 -72")
-        (Zoom "75")
-        (Occurrence "/"))
-      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\ZIPPA-PI.DSN")
-      (Schematic "SCHEMATIC")
-      (Page "03.POWER"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 928 28 823"))
-      (Path "E:\MYPROJECT\ZIPPA-PI\HARDWARE\SCH\LIBRARY1.OLB")
-      (Package "MP2144GJ")
-      (PartType "1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 394 0 801"))
+      (Tab 0)))
   (MPSSessionName "FT")
   (LastUsedLibraryBrowseDirectory "G:\cadence\SPB_17.4\tools\capture\library"))
